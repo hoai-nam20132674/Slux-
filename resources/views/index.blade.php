@@ -58,20 +58,6 @@
 
 	<link rel="stylesheet" href="{{asset('css/style.css')}}">
 	
-
-	<!-- SwiperEffect-->
-
-	<!-- <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css'> -->
-	<!-- <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'> -->
-
-	
-	<!-- End SwiperEffect-->
-
-	<!-- <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css'> -->
-	<!-- <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'> -->
-	
-	<!-- Modernizr JS -->
-	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
@@ -134,7 +120,6 @@
 		<aside id="fh5co-hero" class="js-fullheight">
 			<div class="flexslider js-fullheight">
 				<ul class="slides">
-					<!-- <source src="{{asset('video/bgHeader.mp4')}}" type="" class="bgHeader" style="position: absolute; width: 100%;"> -->
 			   	<li style="background-image: url(images/bg1.png);">
 			   		<div class="overlay-gradient"></div>
 			   		<div class="container">
@@ -415,27 +400,6 @@
 		</div>
 		<br>
 		<br>
-		<!-- <div class="container">
-		    <div class="swiper-container">
-		        <div class="swiper-wrapper">
-
-		            <div class="swiper-slide"><img src="http://dienthoaidangcap.vn/product_images/uploaded_images/vertu-cu-signature-s-red-calf-01.jpg" /></div>
-		            <div class="swiper-slide"><img src="http://dienthoaidangcap.vn/product_images/i/917/vertu-moi-signature-rose-gold-2016-01__36898_zoom.png" /></div>
-		            <div class="swiper-slide"><img src="http://dienthoaidangcap.vn/product_images/b/315/vertu-moi-signature-stainless-steel-black-leather-2017-01__22644_zoom.png" /></div>
-		            <div class="swiper-slide"><img src="http://dienthoaidangcap.vn/product_images/w/519/Vertu-Signature-S-White-Gold-Full-Pave-Baguette-Diamonds-Bag-Key-02__75726_zoom.png" /></div>
-		            <div class="swiper-slide"><img src="http://dienthoaidangcap.vn/product_images/uploaded_images/vertu-moi-signatures-yellow-gold-diamond-02.png" /></div>
-		            <div class="swiper-slide"><img src="http://dienthoaidangcap.vn/product_images/g/214/74__40232_zoom.png" /></div>
-		            <div class="swiper-slide"><img src="http://dienthoaidangcap.vn/product_images/g/214/74__40232_zoom.png" /></div>
-		            <div class="swiper-slide"><img src="http://dienthoaidangcap.vn/product_images/q/210/hublot-classic-fusion-511-ox-1181-rx-01__15257_zoom.png" /></div>
-		            <div class="swiper-slide"><img src="http://dienthoaidangcap.vn/product_images/uploaded_images/hublot-black.diamond.-cuong.vn.png" /></div>
-		        </div>
-		        
-		        <div class="swiper-pagination"></div>
-		    </div>
-		</div> -->
-		
-		
-
 		<div id="fh5co-pricing-section">
 			<div class="container">
 				<div class="row">
