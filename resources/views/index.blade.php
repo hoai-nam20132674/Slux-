@@ -64,6 +64,7 @@
 	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 	<!-- <script src="{{asset('js/carousel.js')}}"></script> -->
 	<script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
+	<script src="{{asset('js/serviceSlux.js')}}"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -89,24 +90,24 @@
 								<li><a href="blog.html">dịch vụ</a></li>
 								<li>
 									<a href="services.html" class="fh5co-sub-ddown">Linh phụ kiện</a>
-									 <!-- <ul class="fh5co-sub-menu">
+									<ul class="fh5co-sub-menu">
 									 	<li><a href="left-sidebar.html">Web Development</a></li>
 									 	<li><a href="right-sidebar.html">Branding &amp; Identity</a></li>
 										<li>
 											<a href="#" class="fh5co-sub-ddown">Free HTML5</a>
-											<ul class="fh5co-sub-menu">
+											<!-- <ul class="fh5co-sub-menu">
 												<li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Build</a></li>
 												<li><a href="http://freehtml5.co/preview/?item=work-free-html5-template-bootstrap" target="_blank">Work</a></li>
 												<li><a href="http://freehtml5.co/preview/?item=light-free-html5-template-bootstrap" target="_blank">Light</a></li>
 												<li><a href="http://freehtml5.co/preview/?item=relic-free-html5-template-using-bootstrap" target="_blank">Relic</a></li>
 												<li><a href="http://freehtml5.co/preview/?item=display-free-html5-template-using-bootstrap" target="_blank">Display</a></li>
 												<li><a href="http://freehtml5.co/preview/?item=sprint-free-html5-template-bootstrap" target="_blank">Sprint</a></li>
-											</ul>
+											</ul> -->
 										</li>
 										<li><a href="#">UI Animation</a></li>
 										<li><a href="#">Copywriting</a></li>
 										<li><a href="#">Photography</a></li> 
-									</ul> -->
+									</ul>
 								</li>
 								<li><a href="about.html">Tin tức</a></li>
 								<li><a href="contact.html">Liên hệ</a></li>
@@ -168,55 +169,88 @@
 		  	</div>
 		</aside>
 		<br>
-		<div class="thongtin">
+
+		<div id="fh5co-services-section">
+			<div class="container">
+		        <div class="row">
+		            <div class="span12">
+		                <div class="well">
+		                    <div id="myCarousel" class="carousel fdi-Carousel slide">
+		                     <!-- Carousel items -->
+		                        <div class="carousel fdi-Carousel slide" id="eventCarousel" data-interval="0">
+		                            <div class="carousel-inner onebyone-carosel">
+		                                <div class="item active">
+		                                    <div class="col-md-4 text-center ">
+												<div class="services box-shadows">
+													<!-- <span><i class="sl-icon-graph"></i></span> -->
+													<h3>Slux+1</h3>
+													<p>Nếu bạn đang sửa dụng một chiếc Vertu đảng cấp , sang trọng, trong quá trình sửa dụng chẳng may máy gặp trục trặc về phần mềm và phần cứng. Bạn đang băn khoăn tìm một nơi sửa chữa uy tín chất lượng , chế độ bảo hành tốt , để gửi gắm dế yêu của bạn. Hãy đến với chúng tôi</p>
+												</div>
+											</div>
+		                                </div>
+		                                <div class="item">
+		                                    <div class="col-md-4 text-center">
+												<div class="services box-shadows">
+													<!-- <span><i class="sl-icon-camera"></i></span> -->
+													<h3>Slux+2</h3>
+													<p>Nếu bạn đang sửa dụng một chiếc Vertu đảng cấp , sang trọng, trong quá trình sửa dụng chẳng may máy gặp trục trặc về phần mềm và phần cứng. Bạn đang băn khoăn tìm một nơi sửa chữa uy tín chất lượng , chế độ bảo hành tốt , để gửi gắm dế yêu của bạn. Hãy đến với chúng tôi</p>
+												</div>
+											</div>
+		                                </div>
+		                                <div class="item">
+		                                    <div class="col-md-4 text-center">
+												<div class="services box-shadows">
+													<!-- <span><i class="sl-icon-support"></i></span> -->
+													<h3>Slux+3</h3>
+													<p>Nếu bạn đang sửa dụng một chiếc Vertu đảng cấp , sang trọng, trong quá trình sửa dụng chẳng may máy gặp trục trặc về phần mềm và phần cứng. Bạn đang băn khoăn tìm một nơi sửa chữa uy tín chất lượng , chế độ bảo hành tốt , để gửi gắm dế yêu của bạn. Hãy đến với chúng tôi</p>
+												</div>
+											</div>
+		                                </div>
+		                                
+
+		                            </div>
+		                            <a class="left carousel-control" href="#eventCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></a>
+		                            <a class="right carousel-control" href="#eventCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		                        </div>
+		                        <!--/carousel-inner-->
+		                    </div><!--/myCarousel-->
+		                </div><!--/well-->
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		
+		<div id="fh5co-counter-section" class="fh5co-counters">
 			<div class="container">
 				<div class="row">
-					<form action="" method="POST">
-						<input type="hidden" name="_token" value="{{ csrf_token()}}">
-						<ul>
-							<li>
-								<div class="form-group">
-					                <select class="form-control" name="">
-					                    <option value="0">Chọn hãng</option>
-					                    <option value="">Huy 8800</option>
-					                    <option value="">Mỵ vertu</option>
-					                </select>
-					            </div>
-							</li>
-							<li>
-								<div class="form-group">
-					                <select class="form-control" name="">
-					                    <option value="0">Chọn dòng máy</option>
-					                    <option value="">Huy 8800</option>
-					                    <option value="">Mỵ vertu</option>
-					                </select>
-					            </div>
-							</li>
-							<li>
-								<div class="form-group">
-					                <select class="form-control" name="">
-					                    <option value="0">Chọn lỗi</option>
-					                    <option value="">Huy 8800</option>
-					                    <option value="">Mỵ vertu</option>
-					                </select>
-					            </div>
-							</li>
-							<li>
-								<div class="form-group">
-					                <input class="form-control" name="ten" placeholder="Số điện thoại" />
-					            </div>
-							</li>
-							<li class="dangky">
-								<div class="form-group">
-									<button type="submit" class="btn btn-dangky" style="width: 100%; background-color:#00ADB5; ">ĐĂNG KÝ</button>
-								</div>
-							</li>
-						</ul>
-					</form>
+					<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+						<i class="sl-icon-badge"></i>
+						<h2>THÀNH TỰ CỦA SLUX</h2>
+						<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p> -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 text-center">
+						<span class="fh5co-counter js-counter" data-from="0" data-to="1356" data-speed="5000" data-refresh-interval="50"></span>
+						<span class="fh5co-counter-label">Cups of Coffee</span>
+					</div>
+					<div class="col-md-3 text-center">
+						<span class="fh5co-counter js-counter" data-from="0" data-to="7290" data-speed="5000" data-refresh-interval="50"></span>
+						<span class="fh5co-counter-label">Client</span>
+					</div>
+					<div class="col-md-3 text-center">
+						<span class="fh5co-counter js-counter" data-from="0" data-to="4370" data-speed="5000" data-refresh-interval="50"></span>
+						<span class="fh5co-counter-label">Projects</span>
+					</div>
+					<div class="col-md-3 text-center">
+						<span class="fh5co-counter js-counter" data-from="0" data-to="4000" data-speed="5000" data-refresh-interval="50"></span>
+						<span class="fh5co-counter-label">Finished Projects</span>
+					</div>
 				</div>
 			</div>
-
 		</div>
+
+		
 		
 		<div class="fh5co-whyChoose-section">
 			
@@ -278,42 +312,6 @@
 			</div>
 		</div>
 
-		<div id="fh5co-services-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-						<i class="sl-icon-paper-plane"></i>
-						<h2>Slux Services</h2>
-						<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p> -->
-						<br>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 text-center ">
-						<div class="services box-shadows">
-							<span><i class="sl-icon-graph"></i></span>
-							<h3>Slux+</h3>
-							<p>Nếu bạn đang sửa dụng một chiếc Vertu đảng cấp , sang trọng, trong quá trình sửa dụng chẳng may máy gặp trục trặc về phần mềm và phần cứng. Bạn đang băn khoăn tìm một nơi sửa chữa uy tín chất lượng , chế độ bảo hành tốt , để gửi gắm dế yêu của bạn. Hãy đến với chúng tôi</p>
-						</div>
-					</div>
-					<div class="col-md-4 text-center">
-						<div class="services box-shadows">
-							<span><i class="sl-icon-camera"></i></span>
-							<h3>Slux+</h3>
-							<p>Nếu bạn đang sửa dụng một chiếc Vertu đảng cấp , sang trọng, trong quá trình sửa dụng chẳng may máy gặp trục trặc về phần mềm và phần cứng. Bạn đang băn khoăn tìm một nơi sửa chữa uy tín chất lượng , chế độ bảo hành tốt , để gửi gắm dế yêu của bạn. Hãy đến với chúng tôi</p>
-						</div>
-					</div>
-					<div class="col-md-4 text-center">
-						<div class="services box-shadows">
-							<span><i class="sl-icon-support"></i></span>
-							<h3>Slux+ &amp; Support</h3>
-							<p>Nếu bạn đang sửa dụng một chiếc Vertu đảng cấp , sang trọng, trong quá trình sửa dụng chẳng may máy gặp trục trặc về phần mềm và phần cứng. Bạn đang băn khoăn tìm một nơi sửa chữa uy tín chất lượng , chế độ bảo hành tốt , để gửi gắm dế yêu của bạn. Hãy đến với chúng tôi</p>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
 		
 		<div class="fh5co-blog-section">
 			<div class="container"> 
@@ -476,6 +474,55 @@
 			</div>
 		</div>
 		
+		<div class="thongtin">
+			<div class="container">
+				<div class="row">
+					<form action="" method="POST">
+						<input type="hidden" name="_token" value="{{ csrf_token()}}">
+						<ul>
+							<li>
+								<div class="form-group">
+					                <select class="form-control" name="">
+					                    <option value="0">Chọn hãng</option>
+					                    <option value="">Huy 8800</option>
+					                    <option value="">Mỵ vertu</option>
+					                </select>
+					            </div>
+							</li>
+							<li>
+								<div class="form-group">
+					                <select class="form-control" name="">
+					                    <option value="0">Chọn dòng máy</option>
+					                    <option value="">Huy 8800</option>
+					                    <option value="">Mỵ vertu</option>
+					                </select>
+					            </div>
+							</li>
+							<li>
+								<div class="form-group">
+					                <select class="form-control" name="">
+					                    <option value="0">Chọn lỗi</option>
+					                    <option value="">Huy 8800</option>
+					                    <option value="">Mỵ vertu</option>
+					                </select>
+					            </div>
+							</li>
+							<li>
+								<div class="form-group">
+					                <input class="form-control" name="ten" placeholder="Số điện thoại" />
+					            </div>
+							</li>
+							<li class="dangky">
+								<div class="form-group">
+									<button type="submit" class="btn btn-dangky" style="width: 100%; background-color:#00ADB5; ">ĐĂNG KÝ</button>
+								</div>
+							</li>
+						</ul>
+					</form>
+				</div>
+			</div>
+
+		</div>
 		
 		<div class="fh5co-parallax" style="background-image: url(images/hero2.jpg);" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
@@ -491,35 +538,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="fh5co-counter-section" class="fh5co-counters">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-						<i class="sl-icon-badge"></i>
-						<h2>Achievements</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-3 text-center">
-						<span class="fh5co-counter js-counter" data-from="0" data-to="1356" data-speed="5000" data-refresh-interval="50"></span>
-						<span class="fh5co-counter-label">Cups of Coffee</span>
-					</div>
-					<div class="col-md-3 text-center">
-						<span class="fh5co-counter js-counter" data-from="0" data-to="7290" data-speed="5000" data-refresh-interval="50"></span>
-						<span class="fh5co-counter-label">Client</span>
-					</div>
-					<div class="col-md-3 text-center">
-						<span class="fh5co-counter js-counter" data-from="0" data-to="4370" data-speed="5000" data-refresh-interval="50"></span>
-						<span class="fh5co-counter-label">Projects</span>
-					</div>
-					<div class="col-md-3 text-center">
-						<span class="fh5co-counter js-counter" data-from="0" data-to="4000" data-speed="5000" data-refresh-interval="50"></span>
-						<span class="fh5co-counter-label">Finished Projects</span>
-					</div>
-				</div>
-			</div>
-		</div>
+		
 		<footer id="footer">
 			<div class="container">
 				<div class="row">

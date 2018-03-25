@@ -355,6 +355,7 @@ figure {
 
 .sf-menu {
   float: right;
+  /*margin: 15px 0 15px 0;*/
 }
 
 .sf-menu ul {
@@ -365,8 +366,9 @@ figure {
 }
 
 .sf-menu a {
-  color: rgba(0, 0, 0, 0.8);
-  padding: 2.4em 1.3em !important;
+  color: #fff;
+  padding: 0em 1.3em !important;
+  margin: 15px 0px;
   font-weight: normal;
   border-left: none;
   border-top: none;
@@ -375,29 +377,43 @@ figure {
   zoom: 1;
   font-size: 14px;
   border-bottom: none !important;
-  font-weight: 400;
+  font-weight: 700;
   text-transform: uppercase;
 }
 .sf-menu a:hover, .sf-menu a:focus, .sf-menu a.active {
-  background: #00ADB5 !important;
-  color: #fff !important;
+  /*background: #00ADB5 !important;*/
+  color: #000 !important;
 }
-
+.sf-menu li:hover {
+  background-color: #ccb669;
+}
 .sf-menu li,
 .sf-menu ul li,
 .sf-menu ul ul li,
 .sf-menu li:hover,
 .sf-menu li.sfHover {
-  background: transparent;
+  /*background: transparent;*/
+
 }
 
 .sf-menu ul li a,
 .sf-menu ul ul li a {
   text-transform: none;
-  padding: 0.25em 1em !important;
+  /*padding: 0.25em 1em !important;*/
   letter-spacing: 1px;
 }
-
+.sf-menu .fh5co-sub-menu li a {
+  margin:0px;
+  color: #fff;
+}
+.sf-menu .fh5co-sub-menu li {
+    padding: 10px;
+    background-color: #000000ab;
+    border-top:1px solid #c6c6c6;
+}
+.sf-menu .fh5co-sub-menu li:hover {
+    background-color: #ccb669;
+}
 .sf-menu li:hover a,
 .sf-menu li.sfHover a,
 .sf-menu ul li:hover a,
@@ -452,7 +468,7 @@ figure {
 }
 
 #fh5co-header-section {
-  background: white;
+  background: #000;
   padding: 0;
   width: 100%;
   -webkit-box-shadow: 0px 5px 5px -4px rgba(0, 0, 0, 0.22);
@@ -479,11 +495,11 @@ figure {
   font-weight: 700;
   float: left;
   margin-bottom: 0;
-  margin-top: 1.4em;
+  margin-top: 0.8em;
 }
 #fh5co-logo a {
-  color: rgba(21, 31, 44, 0.8);
-  border: 2px solid #00ADB5;
+  color: #fff;
+  border: 2px solid #fff;
   padding: 0 7px;
   position: relative;
 }
@@ -569,8 +585,8 @@ figure {
 }
 
 #fh5co-primary-menu .fh5co-sub-menu {
-  padding: 10px 7px 10px;
-  background: #fff;
+  padding: 0px;
+  background: #fff0;
   left: 0;
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
@@ -597,14 +613,14 @@ figure {
 #fh5co-primary-menu .fh5co-sub-menu a {
   letter-spacing: 0;
   padding: 0 15px;
-  font-size: 16px;
-  line-height: 34px;
-  color: #575757 !important;
+  font-size: 14px;
+  line-height: 25px;
+  color: #fff !important;
   text-transform: none;
   background: none;
 }
 #fh5co-primary-menu .fh5co-sub-menu a:hover {
-  color: #00ADB5 !important;
+  color: #000 !important;
   background: none !important;
 }
 
@@ -708,7 +724,7 @@ figure {
 #fh5co-counter-section,
 #fh5co-about-section,
 #fh5co-contact-section {
-  padding: 5em 0;
+  padding: 1em 0;
 }
 
 .fh5co-portfolio-section {
@@ -885,7 +901,7 @@ figure {
 }
 
 .services {
-  margin-bottom: 4.5em;
+  margin-bottom: 2em;
   padding: 70px 25px 25px 25px;
   border: 2px solid rgba(45, 64, 89, 0.1);
   position: relative;
@@ -1313,6 +1329,7 @@ figure {
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
+  background-color: #000;
 }
 .fh5co-counters .counter-wrap {
   border: 1px solid red !important;
@@ -1327,7 +1344,7 @@ figure {
   margin-bottom: .3em;
 }
 .fh5co-counters .fh5co-counter-label {
-  color: rgba(0, 0, 0, 0.5);
+  color: #fff;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 5px;
@@ -1399,6 +1416,11 @@ figure {
 }
 .fh5co-heading h2 {
   font-size: 34px;
+  color: #000;
+  font-weight: 700;
+}
+#fh5co-counter-section .fh5co-heading h2 {
+  color: #fff;
 }
 
 .fh5co-table,
@@ -1718,14 +1740,14 @@ figure {
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #000;
+  background: #fff;
   transition: all .2s ease-out;
 }
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
   content: '';
   width: 30px;
   height: 2px;
-  background: #000;
+  background: #fff;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -2041,6 +2063,36 @@ figure {
     margin:0 15px;
 }
 
+/* DỊCH VỤ SLUX */
+.carousel-inner.onebyone-carosel { margin: auto; width: 100%; }
+.onebyone-carosel .active.left { left: -33.33%; }
+.onebyone-carosel .active.right { left: 33.33%; }
+.onebyone-carosel .next { left: 33.33%; }
+.onebyone-carosel .prev { left: -33.33%; }
+#fh5co-services-section .carousel-control {
+    width: 0%;
+}
+#fh5co-services-section .item h3,#fh5co-services-section .item p{
+    color: #fff;
+}
+#fh5co-services-section .item .services  {
+    background-color: #000;
+}
+#fh5co-services-section .item .services:hover {
+    background-color: #ccb669;
+}
+#fh5co-services-section .well {
+    padding: 20px 20px 0px 20px;
+}
+
+/* END DỊCH VỤ SLUX */
+/* Con số Slux */
+#fh5co-counter-section .js-counter {
+    color: #ccb669;
+    font-weight: 1000;
+}
+
+/* end Con số Slux */
 /* end footer */
 
 @media screen and (max-width: 768px) {
