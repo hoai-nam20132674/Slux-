@@ -1,11 +1,10 @@
 $(document).ready(function () {
-   
-    function serviceSluxResponsive(x) {
-        if (x.matches){
+	function feedbackSluxResponsive(y) {
+        if (y.matches){
             // $('#myCarousel').carousel({
             // interval: 3000
             // });
-            $('.fdi-Carousel .item').each(function () {
+            $('.fdi-Carousel2 .item').each(function () {
                 var next = $(this).next();
                 if (!next.length) {
                     next = $(this).siblings(':first');
@@ -24,7 +23,7 @@ $(document).ready(function () {
             // $('#myCarousel').carousel({
             // interval: 3000
             // });
-            $('.fdi-Carousel .item').each(function () {
+            $('.fdi-Carousel2 .item').each(function () {
                 var next = $(this).next();
                 if (!next.length) {
                     next = $(this).siblings(':first');
@@ -34,10 +33,7 @@ $(document).ready(function () {
             
         }
     }
-    var x = window.matchMedia("(min-width: 768px)")
-    serviceSluxResponsive(x) // Call listener function at run time
-    x.addListener(serviceSluxResponsive) // Attach listener function on state changes
-
-    
+    var y = window.matchMedia("(min-width: 768px)")
+    feedbackSluxResponsive(y) // Call listener function at run time
+    y.addListener(feedbackSluxResponsive)
 });
-

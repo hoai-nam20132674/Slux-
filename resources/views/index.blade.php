@@ -57,14 +57,18 @@
 	<link rel="stylesheet" href="{{asset('css/flexslider.css')}}">
 
 	<link rel="stylesheet" href="{{asset('css/style.css')}}">
-	
+
+	<link rel="stylesheet" href="{{asset('css/styleProcedure.css')}}">
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script> -->
 	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 	<!-- <script src="{{asset('js/carousel.js')}}"></script> -->
 	<script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
 	<script src="{{asset('js/serviceSlux.js')}}"></script>
+	<!-- <script src="{{asset('js/feedbackSlux.js')}}"></script> -->
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -91,10 +95,10 @@
 								<li>
 									<a href="services.html" class="fh5co-sub-ddown">Linh phụ kiện</a>
 									<ul class="fh5co-sub-menu">
-									 	<li><a href="left-sidebar.html">Web Development</a></li>
-									 	<li><a href="right-sidebar.html">Branding &amp; Identity</a></li>
+									 	<li><a href="left-sidebar.html">Linh kiện Nokia 8800</a></li>
+									 	<li><a href="right-sidebar.html">Linh kiện Vertu</a></li>
 										<li>
-											<a href="#" class="fh5co-sub-ddown">Free HTML5</a>
+											<a href="#" class="fh5co-sub-ddown">Phụ kiện Nokia 8800</a>
 											<!-- <ul class="fh5co-sub-menu">
 												<li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Build</a></li>
 												<li><a href="http://freehtml5.co/preview/?item=work-free-html5-template-bootstrap" target="_blank">Work</a></li>
@@ -104,9 +108,7 @@
 												<li><a href="http://freehtml5.co/preview/?item=sprint-free-html5-template-bootstrap" target="_blank">Sprint</a></li>
 											</ul> -->
 										</li>
-										<li><a href="#">UI Animation</a></li>
-										<li><a href="#">Copywriting</a></li>
-										<li><a href="#">Photography</a></li> 
+										<li><a href="#">Phụ kiện Vertu</a></li>
 									</ul>
 								</li>
 								<li><a href="about.html">Tin tức</a></li>
@@ -127,7 +129,7 @@
 			   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
 			   				<div class="slider-text-inner">
 			   					<h2>Slux tận tâm từ những điều nhỏ nhất</h2>
-			   					<p><a href="#" class="btn btn-primary btn-lg">Xem thêm</a></p>
+			   					<p><a href="#" class="btn btn-lg">Xem thêm</a></p>
 			   				</div>
 			   			</div>
 			   		</div>
@@ -138,7 +140,7 @@
 			   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
 			   				<div class="slider-text-inner">
 			   					<h2>Slux cảm xúc chỉ có thể phê hơn</h2>
-			   					<p><a href="#" class="btn btn-primary btn-lg">Xem thêm</a></p>
+			   					<p><a href="#" class="btn btn-lg">Xem thêm</a></p>
 			   				</div>
 			   			</div>
 			   		</div>
@@ -149,7 +151,7 @@
 			   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
 			   				<div class="slider-text-inner">
 			   					<h2>Slux tinh tế trong từng thao tác</h2>
-			   					<p><a href="#" class="btn btn-primary btn-lg">Xem thêm</a></p>
+			   					<p><a href="#" class="btn btn-lg">Xem thêm</a></p>
 			   				</div>
 			   			</div>
 			   		</div>
@@ -160,7 +162,7 @@
 			   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
 			   				<div class="slider-text-inner">
 			   					<h2>Slux </h2>
-			   					<p><a href="#" class="btn btn-primary btn-lg">Xem thêm</a></p>
+			   					<p><a href="#" class="btn btn-lg">Xem thêm</a></p>
 			   				</div>
 			   			</div>
 			   		</div>
@@ -250,7 +252,99 @@
 			</div>
 		</div>
 
-		
+		<div id="fh5co-procedure-section">
+			<section class="cd-timeline js-cd-timeline">
+				<div class="cd-timeline__container">
+					<div class="cd-timeline__block js-cd-block">
+						<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+							<img src="{{asset('images/user.png')}}" alt="Picture">
+						</div> <!-- cd-timeline__img -->
+
+						<div class="cd-timeline__content js-cd-content">
+							<h2>Quy trình 1</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+							<a href="#0" class="cd-timeline__read-more btn">Xem thêm</a>
+							<!-- <span class="cd-timeline__date">Jan 14</span> -->
+						</div> <!-- cd-timeline__content -->
+					</div> <!-- cd-timeline__block -->
+
+					<div class="cd-timeline__block js-cd-block">
+						<div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+							<img src="{{asset('images/user.png')}}" alt="Movie">
+						</div> <!-- cd-timeline__img -->
+
+						<div class="cd-timeline__content js-cd-content">
+							<h2>Quy trình 2</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+							<a href="#0" class="cd-timeline__read-more btn">Xem thêm</a>
+							<!-- <span class="cd-timeline__date">Jan 18</span> -->
+						</div> <!-- cd-timeline__content -->
+					</div> <!-- cd-timeline__block -->
+
+					<div class="cd-timeline__block js-cd-block">
+						<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+							<img src="{{asset('images/user.png')}}" alt="Picture">
+						</div> <!-- cd-timeline__img -->
+
+						<div class="cd-timeline__content js-cd-content">
+							<h2>Quy trình 3</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+							<a href="#0" class="cd-timeline__read-more btn">Xem thêm</a>
+						</div> <!-- cd-timeline__content -->
+					</div> <!-- cd-timeline__block -->
+
+					<div class="cd-timeline__block js-cd-block">
+						<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+							<img src="{{asset('images/user.png')}}" alt="Location">
+						</div> <!-- cd-timeline__img -->
+
+						<div class="cd-timeline__content js-cd-content">
+							<h2>Quy trình 4</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+							<a href="#0" class="cd-timeline__read-more btn">Xem thêm</a>
+						</div> <!-- cd-timeline__content -->
+					</div> <!-- cd-timeline__block -->
+
+					<div class="cd-timeline__block js-cd-block">
+						<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+							<img src="{{asset('images/user.png')}}" alt="Location">
+						</div> <!-- cd-timeline__img -->
+
+						<div class="cd-timeline__content js-cd-content">
+							<h2>Quy trình 5</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+							<a href="#0" class="cd-timeline__read-more btn">Xem thêm</a>
+						</div> <!-- cd-timeline__content -->
+					</div> <!-- cd-timeline__block -->
+
+					<div class="cd-timeline__block js-cd-block">
+						<div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+							<img src="{{asset('images/user.png')}}" alt="Movie">
+						</div> <!-- cd-timeline__img -->
+
+						<div class="cd-timeline__content js-cd-content">
+							<h2>Quy trình 6</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+							<a href="#0" class="cd-timeline__read-more btn">Xem thêm</a>
+						</div> <!-- cd-timeline__content -->
+					</div>
+					<div class="cd-timeline__block js-cd-block">
+						<div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+							<img src="{{asset('images/user.png')}}" alt="Movie">
+						</div> <!-- cd-timeline__img -->
+
+						<div class="cd-timeline__content js-cd-content">
+							<h2>Quy trình 7</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+							<a href="#0" class="cd-timeline__read-more btn">Xem thêm</a>
+						</div> <!-- cd-timeline__content -->
+					</div> <!-- cd-timeline__block -->
+				</div>
+			</section> <!-- cd-timeline -->
+		</div>
+
+
+
 		
 		<div class="fh5co-whyChoose-section">
 			
@@ -398,6 +492,9 @@
 		</div>
 		<br>
 		<br>
+		
+
+
 		<div id="fh5co-pricing-section">
 			<div class="container">
 				<div class="row">
@@ -514,7 +611,7 @@
 							</li>
 							<li class="dangky">
 								<div class="form-group">
-									<button type="submit" class="btn btn-dangky" style="width: 100%; background-color:#00ADB5; ">ĐĂNG KÝ</button>
+									<button type="submit" class="btn btn-dangky" style="width: 100%; margin-right: 0px;margin-bottom: 0px; padding-right:4px; padding-bottom: 7px; ">ĐĂNG KÝ</button>
 								</div>
 							</li>
 						</ul>
@@ -632,7 +729,7 @@
 
 	<!-- Main JS (Do not remove) -->
 	<script src="{{asset('js/main.js')}}"></script>
-
+	<script src="{{asset('js/procedure.js')}}"></script>
 	</body>
 </html>
 

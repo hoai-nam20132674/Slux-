@@ -25,7 +25,7 @@ body.fh5co-offcanvas {
 }
 
 a {
-  color: #00ADB5;
+  color: #fff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -74,13 +74,14 @@ figure {
   font-family: "Open Sans", Arial, serif;
   font-size: 16px;
   font-weight: 400;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  border-radius: 30px;
+  /*-webkit-border-radius: 30px;*/
+  /*-moz-border-radius: 30px;*/
+  /*-ms-border-radius: 30px;*/
+  border-radius: 0px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  background-color: #ccb669;
 }
 .btn.btn-md {
   padding: 10px 20px !important;
@@ -725,6 +726,10 @@ figure {
 #fh5co-about-section,
 #fh5co-contact-section {
   padding: 1em 0;
+}
+
+.fh5co-blog-section footer a {
+    color: #ccb669;
 }
 
 .fh5co-portfolio-section {
@@ -2071,18 +2076,22 @@ figure {
 .onebyone-carosel .prev { left: -33.33%; }
 #fh5co-services-section .carousel-control {
     width: 0%;
+    color: 
 }
 #fh5co-services-section .item h3,#fh5co-services-section .item p{
     color: #fff;
 }
 #fh5co-services-section .item .services  {
     background-color: #000;
+    border-radius: 0px;
 }
 #fh5co-services-section .item .services:hover {
     background-color: #ccb669;
 }
 #fh5co-services-section .well {
     padding: 20px 20px 0px 20px;
+    border :0px;
+    background-color: #fff;
 }
 
 /* END DỊCH VỤ SLUX */
