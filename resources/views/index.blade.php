@@ -41,7 +41,6 @@
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
 
-	<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"> -->
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="{{asset('css/animate.css')}}">
