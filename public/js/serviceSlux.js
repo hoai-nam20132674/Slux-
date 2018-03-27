@@ -19,6 +19,7 @@ $(document).ready(function () {
                     $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
                 }
             });
+            
         }
         else {
             // $('#myCarousel').carousel({
@@ -40,4 +41,5 @@ $(document).ready(function () {
 
     
 });
+
 
