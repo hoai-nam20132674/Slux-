@@ -2034,9 +2034,23 @@ figure {
 
 /* feeback css */
 
-
-
-
+#fh5co-feedback-section .carousel-control {
+    width: 0%;
+    color: 
+}
+#fh5co-feedback-section .item .feedback  {
+    background-color: #000;
+    border-radius: 0px;
+}
+#fh5co-feedback-section .item .feedback h3{
+    color: #fff;
+}
+#fh5co-feedback-section .item .feedback p {
+    font-size: 15px;
+}
+#fh5co-feedback-section .item .feedback .feedbackContent {
+    padding: 15px 15px;
+}
 /* end css feeback*/
 
 /* footer */

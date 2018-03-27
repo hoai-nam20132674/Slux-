@@ -222,7 +222,6 @@ header h1 {
   margin-left: 60px;
   background: white;
   border-radius: 0.25em;
-  padding: 1em;
   -webkit-box-shadow: 0 3px 0 #d7e4ed;
           box-shadow: 0 3px 0 #d7e4ed;
 }
@@ -248,6 +247,13 @@ header h1 {
 
 .cd-timeline__content h2 {
   color: #303e49;
+  padding: 1em;
+  margin: 10px 0px;
+}
+@media screen and (max-width: 768px) {
+    .cd-timeline__content h2 {
+      font-size: 13px;
+    }
 }
 
 .cd-timeline__content p,
@@ -300,7 +306,7 @@ header h1 {
 @media only screen and (min-width: 1170px) {
   .cd-timeline__content {
     margin-left: 0;
-    padding: 1.6em;
+    /*padding: 1.6em;*/
     width: 45%;
     /* Force Hardware Acceleration */
     -webkit-transform: translateZ(0);
@@ -349,7 +355,10 @@ header h1 {
 #fh5co-procedure-section{
     background-color: #e9f0f5;
 }
-
+.procedureImage img {
+    width: 100%;
+    height: auto;
+}
 @media only screen and (min-width: 1170px) {
   /* inverse bounce effect on even content blocks */
   .cd-timeline__block:nth-child(even) .cd-timeline__content.cd-timeline__content--bounce-in {

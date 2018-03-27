@@ -67,7 +67,7 @@
 	<!-- <script src="{{asset('js/carousel.js')}}"></script> -->
 	<script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
 	<script src="{{asset('js/serviceSlux.js')}}"></script>
-	<script src="{{asset('js/feedbackSlux.js')}}"></script>
+	<!-- <script src="{{asset('js/feedbackSlux.js')}}"></script> -->
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -258,25 +258,15 @@
 						<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
 							<img src="{{asset('images/user.png')}}" alt="Picture">
 						</div> <!-- cd-timeline__img -->
-
+						
 						<div class="cd-timeline__content js-cd-content">
-							<h2>Quy trình 1</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-							<a href="#0" class="cd-timeline__read-more btn">Xem thêm</a>
+							<h2>Bước 1: Tiếp nhận máy</h2>
+							<div class="procedureImage">
+								<img src="http://placehold.it/500x250">
+							</div>
+							<!-- <p></p> -->
+							<!-- <a href="#0" class="cd-timeline__read-more btn">Xem thêm</a> -->
 							<!-- <span class="cd-timeline__date">Jan 14</span> -->
-						</div> <!-- cd-timeline__content -->
-					</div> <!-- cd-timeline__block -->
-
-					<div class="cd-timeline__block js-cd-block">
-						<div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
-							<img src="{{asset('images/user.png')}}" alt="Movie">
-						</div> <!-- cd-timeline__img -->
-
-						<div class="cd-timeline__content js-cd-content">
-							<h2>Quy trình 2</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-							<a href="#0" class="cd-timeline__read-more btn">Xem thêm</a>
-							<!-- <span class="cd-timeline__date">Jan 18</span> -->
 						</div> <!-- cd-timeline__content -->
 					</div> <!-- cd-timeline__block -->
 
@@ -284,60 +274,93 @@
 						<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
 							<img src="{{asset('images/user.png')}}" alt="Picture">
 						</div> <!-- cd-timeline__img -->
-
+						
 						<div class="cd-timeline__content js-cd-content">
-							<h2>Quy trình 3</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-							<a href="#0" class="cd-timeline__read-more btn">Xem thêm</a>
-						</div> <!-- cd-timeline__content -->
+							<h2>Bước 2: Kiểm tra, xác định nguyên nhân lỗi</h2>
+							<div class="procedureImage">
+								<img src="http://placehold.it/500x250">
+							</div>
+							<!-- <p></p> -->
+							<!-- <a href="#0" class="cd-timeline__read-more btn">Xem thêm</a> -->
+							<!-- <span class="cd-timeline__date">Jan 14</span> -->
+						</div><!-- cd-timeline__content -->
 					</div> <!-- cd-timeline__block -->
-
+					
 					<div class="cd-timeline__block js-cd-block">
-						<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
-							<img src="{{asset('images/user.png')}}" alt="Location">
+						<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+							<img src="{{asset('images/user.png')}}" alt="Picture">
 						</div> <!-- cd-timeline__img -->
-
+						
 						<div class="cd-timeline__content js-cd-content">
-							<h2>Quy trình 4</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-							<a href="#0" class="cd-timeline__read-more btn">Xem thêm</a>
-						</div> <!-- cd-timeline__content -->
-					</div> <!-- cd-timeline__block -->
-
-					<div class="cd-timeline__block js-cd-block">
-						<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
-							<img src="{{asset('images/user.png')}}" alt="Location">
-						</div> <!-- cd-timeline__img -->
-
-						<div class="cd-timeline__content js-cd-content">
-							<h2>Quy trình 5</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-							<a href="#0" class="cd-timeline__read-more btn">Xem thêm</a>
-						</div> <!-- cd-timeline__content -->
-					</div> <!-- cd-timeline__block -->
-
-					<div class="cd-timeline__block js-cd-block">
-						<div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
-							<img src="{{asset('images/user.png')}}" alt="Movie">
-						</div> <!-- cd-timeline__img -->
-
-						<div class="cd-timeline__content js-cd-content">
-							<h2>Quy trình 6</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-							<a href="#0" class="cd-timeline__read-more btn">Xem thêm</a>
-						</div> <!-- cd-timeline__content -->
+							<h2>Bước 3: Báo giá, thời gian sửa chữa</h2>
+							<div class="procedureImage">
+								<img src="http://placehold.it/500x250">
+							</div>
+							<!-- <p></p> -->
+							<!-- <a href="#0" class="cd-timeline__read-more btn">Xem thêm</a> -->
+							<!-- <span class="cd-timeline__date">Jan 14</span> -->
+						</div><!-- cd-timeline__content -->
 					</div>
 					<div class="cd-timeline__block js-cd-block">
-						<div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
-							<img src="{{asset('images/user.png')}}" alt="Movie">
+						<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+							<img src="{{asset('images/user.png')}}" alt="Picture">
 						</div> <!-- cd-timeline__img -->
-
+						
 						<div class="cd-timeline__content js-cd-content">
-							<h2>Quy trình 7</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-							<a href="#0" class="cd-timeline__read-more btn">Xem thêm</a>
-						</div> <!-- cd-timeline__content -->
-					</div> <!-- cd-timeline__block -->
+							<h2>Bước 4: Xác nhận sửa chữa của khác hàng</h2>
+							<div class="procedureImage">
+								<img src="http://placehold.it/500x250">
+							</div>
+							<!-- <p></p> -->
+							<!-- <a href="#0" class="cd-timeline__read-more btn">Xem thêm</a> -->
+							<!-- <span class="cd-timeline__date">Jan 14</span> -->
+						</div><!-- cd-timeline__content -->
+					</div>
+					<div class="cd-timeline__block js-cd-block">
+						<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+							<img src="{{asset('images/user.png')}}" alt="Picture">
+						</div> <!-- cd-timeline__img -->
+						
+						<div class="cd-timeline__content js-cd-content">
+							<h2>Bước 5: Tiến hành sửa chữa sản phẩm</h2>
+							<div class="procedureImage">
+								<img src="http://placehold.it/500x250">
+							</div>
+							<!-- <p></p> -->
+							<!-- <a href="#0" class="cd-timeline__read-more btn">Xem thêm</a> -->
+							<!-- <span class="cd-timeline__date">Jan 14</span> -->
+						</div><!-- cd-timeline__content -->
+					</div>
+					<div class="cd-timeline__block js-cd-block">
+						<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+							<img src="{{asset('images/user.png')}}" alt="Picture">
+						</div> <!-- cd-timeline__img -->
+						
+						<div class="cd-timeline__content js-cd-content">
+							<h2>Bước 6: Hướng dẫn khách hàng kiểm tra, theo dõi sau sửa chữa</h2>
+							<div class="procedureImage">
+								<img src="http://placehold.it/500x250">
+							</div>
+							<!-- <p></p> -->
+							<!-- <a href="#0" class="cd-timeline__read-more btn">Xem thêm</a> -->
+							<!-- <span class="cd-timeline__date">Jan 14</span> -->
+						</div><!-- cd-timeline__content -->
+					</div>
+					<div class="cd-timeline__block js-cd-block">
+						<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+							<img src="{{asset('images/user.png')}}" alt="Picture">
+						</div> <!-- cd-timeline__img -->
+						
+						<div class="cd-timeline__content js-cd-content">
+							<h2>Bước 7: Dán tem, viết phiêu bảo hành cho khách hàng</h2>
+							<div class="procedureImage">
+								<img src="http://placehold.it/500x250">
+							</div>
+							<!-- <p></p> -->
+							<!-- <a href="#0" class="cd-timeline__read-more btn">Xem thêm</a> -->
+							<!-- <span class="cd-timeline__date">Jan 14</span> -->
+						</div><!-- cd-timeline__content -->
+					</div>
 				</div>
 			</section> <!-- cd-timeline -->
 		</div>
@@ -411,7 +434,7 @@
 			    <div class="row">
 					<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
 						<i class="sl-icon-note"></i>
-						<h2>Tin tức</h2>
+						<h2>TIN TỨC</h2>
 					</div>
 				</div>
 				
@@ -492,6 +515,75 @@
 		<br>
 		<br>
 		
+		<div id="fh5co-feedback-section">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+					<i class="sl-icon-note"></i>
+					<h2>KHÁCH HÀNG NÓI GÌ VỀ CHÚNG TÔI</h2>
+				</div>
+			</div>
+			<div class="container">
+		        <div class="row">
+		            <div class="span12">
+		                <div class="well">
+		                    <div id="myCarousel" class="carousel fdi-Carousel slide">
+		                        <div class="carousel fdi-Carousel slide" id="feedbackCarousel" data-interval="0">
+		                            <div class="carousel-inner onebyone-carosel">
+		                                <div class="item active">
+		                                    <div class="col-md-4 text-center ">
+												<div class="feedback ">
+													<div class="feedbackImage">
+														<img src="http://placehold.it/350x200"">
+													</div>
+													<div class="feedbackContent box-shadows">
+														<h3>Slux+1</h3>
+														<p>Nếu bạn đang sửa dụng một chiếc Vertu đảng cấp , sang trọng, trong quá trình sửa dụng chẳng may máy gặp trục trặc về phần mềm và phần cứng. Bạn đang băn khoăn tìm một nơi sửa chữa uy tín chất lượng , chế độ bảo hành tốt , để gửi gắm dế yêu của bạn. Hãy đến với chúng tôi</p>
+													</div>
+
+												</div>
+											</div>
+		                                </div>
+		                                <div class="item">
+		                                    <div class="col-md-4 text-center">
+												<div class="feedback ">
+													<div class="feedbackImage">
+														<img src="http://placehold.it/350x200"">
+													</div>
+													<div class="feedbackContent box-shadows">
+														<h3>Slux+1</h3>
+														<p>Nếu bạn đang sửa dụng một chiếc Vertu đảng cấp , sang trọng, trong quá trình sửa dụng chẳng may máy gặp trục trặc về phần mềm và phần cứng. Bạn đang băn khoăn tìm một nơi sửa chữa uy tín chất lượng , chế độ bảo hành tốt , để gửi gắm dế yêu của bạn. Hãy đến với chúng tôi</p>
+													</div>
+
+												</div>
+											</div>
+		                                </div>
+		                                <div class="item">
+		                                    <div class="col-md-4 text-center">
+												<div class="feedback ">
+													<div class="feedbackImage">
+														<img src="http://placehold.it/350x200"">
+													</div>
+													<div class="feedbackContent box-shadows">
+														<h3>Slux+1</h3>
+														<p>Nếu bạn đang sửa dụng một chiếc Vertu đảng cấp , sang trọng, trong quá trình sửa dụng chẳng may máy gặp trục trặc về phần mềm và phần cứng. Bạn đang băn khoăn tìm một nơi sửa chữa uy tín chất lượng , chế độ bảo hành tốt , để gửi gắm dế yêu của bạn. Hãy đến với chúng tôi</p>
+													</div>
+
+												</div>
+											</div>
+		                                </div>
+		                                
+
+		                            </div>
+		                            <a class="left carousel-control" href="#feedbackCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></a>
+		                            <a class="right carousel-control" href="#feedbackCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		                        </div>
+		                        
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
 
 
 		<div id="fh5co-pricing-section">
