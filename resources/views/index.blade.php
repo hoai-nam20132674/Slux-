@@ -67,6 +67,7 @@
 	<!-- <script src="{{asset('js/carousel.js')}}"></script> -->
 	<script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
 	<script src="{{asset('js/serviceSlux.js')}}"></script>
+	<script src="{{asset('js/sidebar.js')}}"></script>
 	<!-- <script src="{{asset('js/feedbackSlux.js')}}"></script> -->
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
@@ -118,11 +119,12 @@
 				</div>
 			</header>		
 		</div>
+
 		<!-- end:fh5co-header -->
 		<aside id="fh5co-hero" class="js-fullheight">
 			<div class="flexslider js-fullheight">
 				<ul class="slides">
-			   	<li style="background-image: url(images/bg1.png);">
+			   	<li style="background-image: url(images/bg2.png);">
 			   		<div class="overlay-gradient"></div>
 			   		<div class="container">
 			   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
@@ -133,7 +135,7 @@
 			   			</div>
 			   		</div>
 			   	</li>
-			   	<li style="background-image: url(images/bg1.png);">
+			   	<li style="background-image: url(images/bg2.png);">
 			   		<div class="overlay-gradient"></div>
 			   		<div class="container">
 			   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
@@ -170,6 +172,7 @@
 		  	</div>
 		</aside>
 		<br>
+		
 
 		<div id="fh5co-services-section">
 			<div class="container">
@@ -262,7 +265,7 @@
 						<div class="cd-timeline__content js-cd-content">
 							<h2>Bước 1: Tiếp nhận máy</h2>
 							<div class="procedureImage">
-								<img src="http://placehold.it/500x250">
+								<img src="http://cuong.vn/uploads/images/slide/cuong.vn.png">
 							</div>
 							<!-- <p></p> -->
 							<!-- <a href="#0" class="cd-timeline__read-more btn">Xem thêm</a> -->
@@ -278,7 +281,7 @@
 						<div class="cd-timeline__content js-cd-content">
 							<h2>Bước 2: Kiểm tra, xác định nguyên nhân lỗi</h2>
 							<div class="procedureImage">
-								<img src="http://placehold.it/500x250">
+								<img src="http://cuong.vn/uploads/images/slide/cuong-vn-dien-thoai-cao-cap.jpg">
 							</div>
 							<!-- <p></p> -->
 							<!-- <a href="#0" class="cd-timeline__read-more btn">Xem thêm</a> -->
@@ -294,7 +297,23 @@
 						<div class="cd-timeline__content js-cd-content">
 							<h2>Bước 3: Báo giá, thời gian sửa chữa</h2>
 							<div class="procedureImage">
-								<img src="http://placehold.it/500x250">
+								<img src="http://cuong.vn/uploads/images/slide/banner-wed-3.png">
+							</div>
+							<!-- <p></p> -->
+							<!-- <a href="#0" class="cd-timeline__read-more btn">Xem thêm</a> -->
+							<!-- <span class="cd-timeline__date">Jan 14</span> -->
+						</div><!-- cd-timeline__content -->
+					</div>
+					
+					<div class="cd-timeline__block js-cd-block">
+						<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+							<img src="{{asset('images/user.png')}}" alt="Picture">
+						</div> <!-- cd-timeline__img -->
+						
+						<div class="cd-timeline__content js-cd-content">
+							<h2>Bước 4: Tiến hành sửa chữa sản phẩm</h2>
+							<div class="procedureImage">
+								<img src="http://cuong.vn/uploads/images/slide/cuong.vn.png">
 							</div>
 							<!-- <p></p> -->
 							<!-- <a href="#0" class="cd-timeline__read-more btn">Xem thêm</a> -->
@@ -307,60 +326,16 @@
 						</div> <!-- cd-timeline__img -->
 						
 						<div class="cd-timeline__content js-cd-content">
-							<h2>Bước 4: Xác nhận sửa chữa của khác hàng</h2>
+							<h2>Bước 5: Hướng dẫn khách hàng kiểm tra, theo dõi sau sửa chữa</h2>
 							<div class="procedureImage">
-								<img src="http://placehold.it/500x250">
+								<img src="http://cuong.vn/uploads/images/slide/cuong-vn-dien-thoai-cao-cap.jpg">
 							</div>
 							<!-- <p></p> -->
 							<!-- <a href="#0" class="cd-timeline__read-more btn">Xem thêm</a> -->
 							<!-- <span class="cd-timeline__date">Jan 14</span> -->
 						</div><!-- cd-timeline__content -->
 					</div>
-					<div class="cd-timeline__block js-cd-block">
-						<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
-							<img src="{{asset('images/user.png')}}" alt="Picture">
-						</div> <!-- cd-timeline__img -->
-						
-						<div class="cd-timeline__content js-cd-content">
-							<h2>Bước 5: Tiến hành sửa chữa sản phẩm</h2>
-							<div class="procedureImage">
-								<img src="http://placehold.it/500x250">
-							</div>
-							<!-- <p></p> -->
-							<!-- <a href="#0" class="cd-timeline__read-more btn">Xem thêm</a> -->
-							<!-- <span class="cd-timeline__date">Jan 14</span> -->
-						</div><!-- cd-timeline__content -->
-					</div>
-					<div class="cd-timeline__block js-cd-block">
-						<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
-							<img src="{{asset('images/user.png')}}" alt="Picture">
-						</div> <!-- cd-timeline__img -->
-						
-						<div class="cd-timeline__content js-cd-content">
-							<h2>Bước 6: Hướng dẫn khách hàng kiểm tra, theo dõi sau sửa chữa</h2>
-							<div class="procedureImage">
-								<img src="http://placehold.it/500x250">
-							</div>
-							<!-- <p></p> -->
-							<!-- <a href="#0" class="cd-timeline__read-more btn">Xem thêm</a> -->
-							<!-- <span class="cd-timeline__date">Jan 14</span> -->
-						</div><!-- cd-timeline__content -->
-					</div>
-					<div class="cd-timeline__block js-cd-block">
-						<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
-							<img src="{{asset('images/user.png')}}" alt="Picture">
-						</div> <!-- cd-timeline__img -->
-						
-						<div class="cd-timeline__content js-cd-content">
-							<h2>Bước 7: Dán tem, viết phiêu bảo hành cho khách hàng</h2>
-							<div class="procedureImage">
-								<img src="http://placehold.it/500x250">
-							</div>
-							<!-- <p></p> -->
-							<!-- <a href="#0" class="cd-timeline__read-more btn">Xem thêm</a> -->
-							<!-- <span class="cd-timeline__date">Jan 14</span> -->
-						</div><!-- cd-timeline__content -->
-					</div>
+					
 				</div>
 			</section> <!-- cd-timeline -->
 		</div>
@@ -533,7 +508,7 @@
 		                                    <div class="col-md-4 text-center ">
 												<div class="feedback ">
 													<div class="feedbackImage">
-														<img src="http://placehold.it/350x200"">
+														<img src="http://cuong.vn/uploads/images/slide/cuong.vn.png">
 													</div>
 													<div class="feedbackContent box-shadows">
 														<h3>Slux+1</h3>

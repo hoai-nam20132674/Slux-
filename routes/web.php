@@ -14,7 +14,10 @@
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/test', function () {
-    return view('welcome');
+Route::get('/cau-chuyen-slux.html', function () {
+    return view('sluxHistory');
+});
+Route::get('/tin-tuc.html', function(){
+	return view('blog');
 });
 
