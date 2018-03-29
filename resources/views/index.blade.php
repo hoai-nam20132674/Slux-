@@ -58,6 +58,7 @@
 	<link rel="stylesheet" href="{{asset('css/style.css')}}">
 
 	<link rel="stylesheet" href="{{asset('css/styleProcedure.css')}}">
+	<link rel="stylesheet" href="{{asset('css/blog-list.css')}}">
 	<link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -124,7 +125,7 @@
 		<aside id="fh5co-hero" class="js-fullheight">
 			<div class="flexslider js-fullheight">
 				<ul class="slides">
-			   	<li style="background-image: url(images/bg2.png);">
+			   	<li style="background-image: url(images/bg1.png);">
 			   		<div class="overlay-gradient"></div>
 			   		<div class="container">
 			   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
@@ -508,7 +509,7 @@
 		                                    <div class="col-md-4 text-center ">
 												<div class="feedback ">
 													<div class="feedbackImage">
-														<img src="http://cuong.vn/uploads/images/slide/cuong.vn.png">
+														<img src="https://scontent.fhan2-2.fna.fbcdn.net/v/t1.0-9/12814467_805626236249661_2051314709770613093_n.jpg?_nc_cat=0&oh=34c0ccfbb186498dccf9f0240c55a3c0&oe=5B6B3701">
 													</div>
 													<div class="feedbackContent box-shadows">
 														<h3>Slux+1</h3>
@@ -522,7 +523,7 @@
 		                                    <div class="col-md-4 text-center">
 												<div class="feedback ">
 													<div class="feedbackImage">
-														<img src="http://placehold.it/350x200"">
+														<img src="https://scontent.fhan2-2.fna.fbcdn.net/v/t1.0-9/12814467_805626236249661_2051314709770613093_n.jpg?_nc_cat=0&oh=34c0ccfbb186498dccf9f0240c55a3c0&oe=5B6B3701">
 													</div>
 													<div class="feedbackContent box-shadows">
 														<h3>Slux+1</h3>
@@ -536,7 +537,7 @@
 		                                    <div class="col-md-4 text-center">
 												<div class="feedback ">
 													<div class="feedbackImage">
-														<img src="http://placehold.it/350x200"">
+														<img src="https://scontent.fhan2-2.fna.fbcdn.net/v/t1.0-9/12814467_805626236249661_2051314709770613093_n.jpg?_nc_cat=0&oh=34c0ccfbb186498dccf9f0240c55a3c0&oe=5B6B3701">
 													</div>
 													<div class="feedbackContent box-shadows">
 														<h3>Slux+1</h3>
@@ -559,85 +560,8 @@
 		        </div>
 		    </div>
 		</div>
-
-
-		<div id="fh5co-pricing-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-						<i class="sl-icon-wallet"></i>
-						<h2>Pricing</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-3 col-sm-6">
-						<div class="price-box to-animate">
-							<h2 class="pricing-plan">Starter</h2>
-							<div class="price"><sup class="currency">$</sup>7<small>/mo</small></div>
-							<p>Basic customer support for small business</p>
-							<hr>
-							<ul class="pricing-info">
-								<li>10 projects</li>
-								<li>20 Pages</li>
-								<li>20 Emails</li>
-								<li>100 Images</li>
-							</ul>
-							<p><a href="#" class="btn btn-primary">Read More</a></p>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="price-box to-animate">
-							<h2 class="pricing-plan">Regular</h2>
-							<div class="price"><sup class="currency">$</sup>19<small>/mo</small></div>
-							<p>Basic customer support for small business</p>
-							<hr>
-							<ul class="pricing-info">
-								<li>15 projects</li>
-								<li>40 Pages</li>
-								<li>40 Emails</li>
-								<li>200 Images</li>
-							</ul>
-							<p><a href="#" class="btn btn-primary">Read More</a></p>
-						</div>
-					</div>
-					<div class="clearfix visible-sm-block"></div>
-					<div class="col-md-3 col-sm-6 to-animate">
-						<div class="price-box popular">
-							<div class="popular-text">Best value</div>
-							<h2 class="pricing-plan">Plus</h2>
-							<div class="price"><sup class="currency">$</sup>79<small>/mo</small></div>
-							<p>Basic customer support for small business</p>
-							<hr>
-							<ul class="pricing-info">
-								<li>Unlimitted projects</li>
-								<li>100 Pages</li>
-								<li>100 Emails</li>
-								<li>700 Images</li>
-							</ul>
-							<p><a href="#" class="btn btn-primary">Read More</a></p>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="price-box to-animate">
-							<h2 class="pricing-plan">Enterprise</h2>
-							<div class="price"><sup class="currency">$</sup>125<small>/mo</small></div>
-							<p>Basic customer support for small business</p>
-							<hr>
-							<ul class="pricing-info">
-								<li>Unlimitted projects</li>
-								<li>Unlimitted Pages</li>
-								<li>Unlimitted Emails</li>
-								<li>Unlimitted Images</li>
-							</ul>
-							<p><a href="#" class="btn btn-primary">Read More</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 		
-		<div class="thongtin">
+		<div class="information">
 			<div class="container">
 				<div class="row">
 					<form action="" method="POST">

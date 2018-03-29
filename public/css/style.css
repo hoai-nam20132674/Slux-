@@ -626,7 +626,7 @@ figure {
 }
 
 #fh5co-hero {
-  min-height: 700px;
+  min-height: 500px;
   background: #fff url(../images/loader.gif) no-repeat center center;
 }
 #fh5co-hero .btn {
@@ -653,8 +653,9 @@ figure {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  min-height: 700px;
+  /*min-height: 700px;*/
   position: relative;
+  height: 500px;
 }
 #fh5co-hero .flexslider .slides li:after {
   position: absolute;
@@ -687,7 +688,7 @@ figure {
 #fh5co-hero .flexslider .slider-text {
   display: table;
   opacity: 0;
-  min-height: 700px;
+  min-height: 500px;
   z-index: 9;
 }
 #fh5co-hero .flexslider .slider-text a:hover {
@@ -907,8 +908,8 @@ figure {
 
 .services {
   margin-bottom: 2em;
-  padding: 70px 25px 25px 25px;
-  border: 2px solid rgba(45, 64, 89, 0.1);
+  padding: 30px 25px 30px 25px;
+  /*border: 2px solid rgba(45, 64, 89, 0.1);*/
   position: relative;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1410,7 +1411,7 @@ figure {
 }
 
 .fh5co-heading {
-  margin-bottom: 2.5em;
+  /*margin-bottom: 2.5em;*/
 }
 .fh5co-heading i {
   font-size: 40px;
@@ -1445,7 +1446,7 @@ figure {
 }
 
 .fh5co-parallax {
-  background-color: #00adb5;
+  background-color: #000;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -1923,21 +1924,21 @@ figure {
 .clear {
      clear: both;
 }
-.thongtin{
+.information{
     margin-bottom: 2.5em;
 }
-.thongtin ul li {
+.information ul li {
     
     width: 20%;
     list-style: none;
     float: left;
     padding: 0 5px 0 5px;
 }
-.thongtin ul {
+.information ul {
 
     padding-left: 0px;
 }
-.thongtin ul li.dangky:hover .btn-dangky{
+.information ul li.dangky:hover .btn-dangky{
     color: red;
 
 }
@@ -2092,8 +2093,16 @@ figure {
     width: 0%;
     color: 
 }
-#fh5co-services-section .item h3,#fh5co-services-section .item p{
+#fh5co-services-section .item p{
     color: #fff;
+    font-size: 0.9em;
+    text-align: left;
+}
+#fh5co-services-section .item h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
 }
 #fh5co-services-section .item .services  {
     background-color: #000;
@@ -2213,13 +2222,13 @@ figure {
   background: -webkit-linear-gradient(#e94f31 0%, #d13516 100%);
   background: linear-gradient(#e94f31 0%, #d13516 100%);*/
 }
-#cssmenu > ul > li:hover {
-  background: #e84323;
-  background: -moz-linear-gradient(#e84323 0%, #c33115 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e84323), color-stop(100%, #c33115));
-  background: -webkit-linear-gradient(#e84323 0%, #c33115 100%);
-  background: linear-gradient(#e84323 0%, #c33115 100%);
-}
+/*#cssmenu > ul > li:hover {
+  background: #ccb669;
+  background: -moz-linear-gradient(#e84323 0%, #ccb669 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ccb669), color-stop(100%, #c33115));
+  background: -webkit-linear-gradient(#ccb669 0%, #ccb669 100%);
+  background: linear-gradient(#ccb669 0%, #ccb669 100%);
+}*/
 #cssmenu > ul > li > a {
   font-size: 14px;
   display: block;
@@ -2355,15 +2364,18 @@ figure {
 }
  /* End breadcrumb css*/
 
+.page-content {
+    margin: 40px auto;
+}
 @media screen and (max-width: 768px) {
-    .thongtin ul li {
+    .information ul li {
     
         width: 100%;
         /*list-style: none;*/
       
         padding:  none;
     }
-    .thongtin ul {
+    .information ul {
 
       margin-top: 20px;
     }

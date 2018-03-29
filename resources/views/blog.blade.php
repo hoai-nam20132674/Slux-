@@ -57,6 +57,7 @@
 	<link rel="stylesheet" href="{{asset('css/style.css')}}">
 
 	<link rel="stylesheet" href="{{asset('css/styleProcedure.css')}}">
+	<link rel="stylesheet" href="{{asset('css/blog-list.css')}}">
 	<link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -171,58 +172,141 @@
 				  	</div>
 				</aside>
 				<div class="clear"></div>
-				
-				<div class="container">
-					<div class="row">
-						<div class="col-md-3">
-								<div id='cssmenu'>
-									<ul>
-									   <li class='active'><a ><span>Danh mục</span></a></li>
-									   <li class='has-sub'><a href='#'><span>Linh kiện Nokia</span></a>
-									      <ul>
-									         	<li><a href='#'><span>Main</span></a></li>
-									         	<li><a href='#'><span>Vỏ máy</span></a></li>
-									        	<li><a href='#'><span>Phím</span></a></li>
-									      </ul>
-									   </li>
-									   <li class='has-sub'><a href='#'><span>Linh kiện Vertu</span></a>
-									      <ul>
-									         	<li><a href='#'><span>Main</span></a></li>
-									         	<li><a href='#'><span>Vỏ máy</span></a></li>
-									         	<li><a href='#'><span>Phím</span></a></li>
-									      </ul>
-									   </li>
-									   <li class='has-sub'><a href='#'><span>Phụ kiện Nokia</span></a>
-											<ul>
-									         	<li><a href='#'><span>Tai nghe</span></a></li>
-									         	<li><a href='#'><span>Sạc pin</span></a></li>
-									      	</ul>
-									   </li>
-									   <li class='has-sub'><a href='#'><span>Phụ kiện Vertu</span></a>
-											<ul>
-									         	<li><a href='#'><span>Tai nghe</span></a></li>
-									        	<li><a href='#'><span>Sạc pin</span></a></li>
-									      	</ul>
-									   </li>
-									</ul>
+				<div class="page-content">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3">
+									<div id='cssmenu'>
+										<ul>
+										   <li class='active'><a ><span>Danh mục</span></a></li>
+										   <li class='has-sub'><a href='#'><span>Linh kiện Nokia</span></a>
+										      <ul>
+										         	<li><a href='#'><span>Main</span></a></li>
+										         	<li><a href='#'><span>Vỏ máy</span></a></li>
+										        	<li><a href='#'><span>Phím</span></a></li>
+										      </ul>
+										   </li>
+										   <li class='has-sub'><a href='#'><span>Linh kiện Vertu</span></a>
+										      <ul>
+										         	<li><a href='#'><span>Main</span></a></li>
+										         	<li><a href='#'><span>Vỏ máy</span></a></li>
+										         	<li><a href='#'><span>Phím</span></a></li>
+										      </ul>
+										   </li>
+										   <li class='has-sub'><a href='#'><span>Phụ kiện Nokia</span></a>
+												<ul>
+										         	<li><a href='#'><span>Tai nghe</span></a></li>
+										         	<li><a href='#'><span>Sạc pin</span></a></li>
+										      	</ul>
+										   </li>
+										   <li class='has-sub'><a href='#'><span>Phụ kiện Vertu</span></a>
+												<ul>
+										         	<li><a href='#'><span>Tai nghe</span></a></li>
+										        	<li><a href='#'><span>Sạc pin</span></a></li>
+										      	</ul>
+										   </li>
+										</ul>
+									</div>
+							</div>
+							<div class="col-md-9">
+								<div class="breadcrumb-slux">
+									<div class="row">
+								        <div class="btn-group btn-breadcrumb breadcrumb-default">
+								            <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
+								            <a href="#" class="btn btn-default visible-lg-block visible-md-block">Snippets</a>
+								            <a href="#" class="btn btn-default visible-lg-block visible-md-block">Breadcrumbs text</a>
+								            <a href="#" class="btn btn-default visible-lg-block visible-md-block">Section</a>
+								            <a href="#" class="btn btn-default visible-lg-block visible-md-block">Category</a>
+								            
+								            
+								        </div>
+									</div>
 								</div>
-						</div>
-						<div class="col-md-9">
-							<div class="breadcrumb-slux">
-								<div class="row">
-							        <div class="btn-group btn-breadcrumb breadcrumb-default">
-							            <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
-							            <a href="#" class="btn btn-default visible-lg-block visible-md-block">Snippets</a>
-							            <a href="#" class="btn btn-default visible-lg-block visible-md-block">Breadcrumbs text</a>
-							            <a href="#" class="btn btn-default visible-lg-block visible-md-block">Section</a>
-							            <a href="#" class="btn btn-default visible-lg-block visible-md-block">Category</a>
-							            
-							            
-							        </div>
+								<div class="blog-list">
+									<div class="row">
+										<div class="row"> 
+						                    <div class="col-xs-12 col-sm-3 col-md-3">
+						                        <a href="#">
+						                            <img src="http://wanderluxe.theluxenomad.com/wp-content/uploads/2014/10/http-www.urchinbali.comgallery.jpg" class="img-responsive img-box img-thumbnail"> 
+						                        </a>
+						                    </div> 
+						                    <div class="col-xs-12 col-sm-9 col-md-9">
+						                    	<h4><a href="#">5 of Bali’s Spanking New Haunts - WanderLuxe Magazine</a></h4>
+						                        <p>Naturally, we know where Bali's newest restaurants are and what to order, so give that private chef a rest and check out these spanking new haunts.</p>
+						                        <div class="list-group">
+						                            <div class="list-group-item">
+						                                
+						                                <div class="row-content">
+						                                   
+						                                    <small>
+						                                        <i class="glyphicon glyphicon-time"></i> 3 days ago via <span class="twitter"> <i class="fa fa-twitter"></i> <a target="_blank" href="https://twitter.com/sintret" alt="sintret" title="sintret">@sintret</a></span>
+						                                        <br>
+						                                    </small>
+						                                </div>
+						                            </div>
+						                        </div>
+						                       
+						                    </div> 
+						                </div>
+						                <hr>
+
+						                <div class="row"> 
+						                    <div class="col-xs-12 col-sm-3 col-md-3">
+						                        <a href="#">
+						                            <img src="http://wanderluxe.theluxenomad.com/wp-content/uploads/2014/09/http-barbacoabali.com_.jpg" class="img-responsive img-box img-thumbnail"> 
+						                        </a>
+						                    </div> 
+						                    <div class="col-xs-12 col-sm-9 col-md-9">
+						                    	<h4><a href="#">Top 8 Best Bali Restaurants - WanderLuxe Magazine</a></h4>
+						                        <p>We know that there’s tons to noms in Bali, but what’s the best and where are they? Here are our top 8 Seminyak Bali restaurants to visit.</p>
+						                        <div class="list-group">
+						                            <div class="list-group-item">
+						                                
+						                                <div class="row-content">
+						                                    
+						                                    <small>
+						                                        <i class="glyphicon glyphicon-time"></i> 1 month ago via <span class="twitter"> <i class="fa fa-twitter"></i> <a target="_blank" href="https://twitter.com/sintret" alt="sintret" title="sintret">@sintret</a></span>
+						                                        <br>
+						                                    </small>
+						                                </div>
+						                            </div>
+						                        </div>
+						                        
+						                    </div> 
+						                </div>
+						                <hr>
+
+
+						                <div class="row"> 
+						                    <div class="col-xs-12 col-sm-3 col-md-3">
+						                        <a href="#">
+						                            <img src="http://i.huffpost.com/gen/2038950/thumbs/s-BANGKOK-NOODLES-large.jpg" class="img-responsive img-box img-thumbnail"> 
+						                        </a>
+						                    </div> 
+						                    <div class="col-xs-12 col-sm-9 col-md-9">
+						                    	<h4><a href="#">These Are The Best Noodle Spots In Bangkok</a></h4>
+						                        <p>BANGKOK (AP) — With its fluorescent bulbs and cafeteria-style tables, the Bangkok restaurant Raan Jay Fai wouldn't win any awards for interior decorating.              But that hasn't deterred Martha Stewart, one of the restaurant's many fans...</p>
+						                        <div class="list-group">
+						                            <div class="list-group-item">
+						                                
+						                                <div class="row-content">
+						                                    
+						                                    <small>
+						                                        <i class="glyphicon glyphicon-time"></i> 1 month ago via <span class="twitter"> <i class="fa fa-twitter"></i> <a target="_blank" href="https://twitter.com/sintret" alt="sintret" title="sintret">@sintret</a></span>
+						                                        <br>
+						                                    </small>
+						                                </div>
+						                            </div>
+						                        </div>
+						                        
+						                    </div> 
+						                </div>
+						                <hr>
+									</div>
 								</div>
 							</div>
+							<div class="clear"></div>
 						</div>
-						<div class="clear"></div>
 					</div>
 				</div>
 				<footer id="footer">
