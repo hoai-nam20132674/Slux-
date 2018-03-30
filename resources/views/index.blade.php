@@ -92,7 +92,8 @@
 									<a class="active" href="index.html">Home</a>
 								</li> -->
 								<li><a href="work.html">Trang chủ</a></li>
-								<li><a href="blog.html">dịch vụ</a></li>
+								<li><a href="blog.html">Dịch vụ</a></li>
+								<li><a href="cau-chuyen-slux.html">Câu chuyện</a></li>
 								<li>
 									<a href="services.html" class="fh5co-sub-ddown">Linh phụ kiện</a>
 									<ul class="fh5co-sub-menu">
@@ -112,7 +113,7 @@
 										<li><a href="#">Phụ kiện Vertu</a></li>
 									</ul>
 								</li>
-								<li><a href="about.html">Tin tức</a></li>
+								<li><a href="tin-tuc.html">Tin tức</a></li>
 								<li><a href="contact.html">Liên hệ</a></li>
 							</ul>
 						</nav>
